@@ -1,28 +1,31 @@
 .Navbar{
     display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-evenly;
     background-color: black;
     color: #ffffff;
     .logo{
         display: flex;
-        justify-content: center;
         align-items: center;
         img{
-            height: 23px;
-            width: 22.94px;
-        }
-        .logo-text{
-            height: 138px;
-            width: 40px;
-            text-align: center;
+            height: 1em;
         }
     }
     .navbar-functional-components{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         ul{
             display: flex;
-            gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
             li{
                 list-style: none;
             }
+        }
+        .search-box{
+            
         }
     }
 }

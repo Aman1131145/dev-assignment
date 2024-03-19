@@ -13,7 +13,7 @@ function Navbar() {
                     src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdYofbBx8uk9mWWUC8og1sEm7LBzRgrRK0YScqKMXatJF6bjd7"
                     alt="logo image"
                 />
-                <span className="logo-text">E-COMM</span>
+                <h2 className="logo-text">E-COMM</h2>
             </div>
 
             {/* Contains the sections and the search bar */}
@@ -29,11 +29,11 @@ function Navbar() {
                     <li>Furniture</li>
                     <li>Travel</li>
                     <li>Botanical</li>
-                    <div className="search-box">
-                        <CiSearch className="search-logo"/>
-                        <input type="text" placeholder="Search Something" />
-                    </div>
                 </ul>
+                <div className="search-box">
+                    <CiSearch className="search-logo"/>
+                    <input type="text" placeholder="Search Something" />
+                </div>
             </div>
         </div>
     );
